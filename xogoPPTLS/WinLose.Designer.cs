@@ -55,7 +55,7 @@
             this.MinimumSize = new System.Drawing.Size(294, 306);
             this.Name = "WinLose";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Game";
+            this.Text = "Juego";
             this.ResumeLayout(false);
 
         }
