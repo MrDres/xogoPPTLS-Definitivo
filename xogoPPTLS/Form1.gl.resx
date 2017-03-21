@@ -163,6 +163,12 @@
   <data name="nuevoJuegoToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>Novo Xogo</value>
   </data>
+  <data name="guardarToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 22</value>
+  </data>
+  <data name="guardarToolStripMenuItem.Text" xml:space="preserve">
+    <value>Gardar</value>
+  </data>
   <data name="cerrarToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>177, 22</value>
   </data>
@@ -177,15 +183,6 @@
   </data>
   <data name="tsStart.Text" xml:space="preserve">
     <value>&amp;Arquivo</value>
-  </data>
-  <data name="tsSave.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 20</value>
-  </data>
-  <data name="tsSave.Text" xml:space="preserve">
-    <value>&amp;Gardar</value>
-  </data>
-  <data name="tsSave.ToolTipText" xml:space="preserve">
-    <value>Gardar</value>
   </data>
   <data name="verInstruccionesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>176, 22</value>

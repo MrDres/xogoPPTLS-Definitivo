@@ -61,6 +61,24 @@ namespace xogoPPTLS.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to ¿ Desea usted cerrar la aplicacion ?.
+        /// </summary>
+        internal static string cerrar {
+            get {
+                return ResourceManager.GetString("cerrar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to CERRAR.
+        /// </summary>
+        internal static string cerrarTitulo {
+            get {
+                return ResourceManager.GetString("cerrarTitulo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to EMPATE.
         /// </summary>
         internal static string empatar {

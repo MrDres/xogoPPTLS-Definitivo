@@ -16,12 +16,12 @@ namespace xogoPPTLS
     public partial class Game : Form
     {
         int eleccion1, eleccion2, marcador1 = 0, marcador2 = 0;
-        string ganar = xogoPPTLS.Resources.StringResources.ganar,
-            perder = xogoPPTLS.Resources.StringResources.perder,
-            empatar = xogoPPTLS.Resources.StringResources.empatar,
-            guardar = xogoPPTLS.Resources.StringResources.guardar;
-
-
+        String perder = xogoPPTLS.Resources.StringResources.perder;
+        String ganar = xogoPPTLS.Resources.StringResources.ganar;
+        String empatar = xogoPPTLS.Resources.StringResources.empatar;
+        String guardar = xogoPPTLS.Resources.StringResources.guardar;
+        String cerrar = xogoPPTLS.Resources.StringResources.cerrar;
+        String cerrarTitulo = xogoPPTLS.Resources.StringResources.cerrarTitulo;
         Random r = new Random();
         
 
@@ -31,8 +31,8 @@ namespace xogoPPTLS
         {
 
 
-            Thread.CurrentThread.CurrentCulture = new CultureInfo("");
-            Thread.CurrentThread.CurrentUICulture = new CultureInfo("");            
+            //Thread.CurrentThread.CurrentCulture = new CultureInfo("");
+            //Thread.CurrentThread.CurrentUICulture = new CultureInfo("");            
             InitializeComponent();
 
 
@@ -110,20 +110,14 @@ namespace xogoPPTLS
 
         private void cerrarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if(MessageBox.Show("¿ Desea cerrar la aplicación ?", "CERRAR", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            if(MessageBox.Show(cerrar, cerrarTitulo, MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
                 Close();
             }
            
         }
 
-        private void tsSave_Click(object sender, EventArgs e)
-        {
-
-            MessageBox.Show(guardar);
-
-        }
-
+        
         private void nuevoJuegoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             empezar();
@@ -303,6 +297,11 @@ namespace xogoPPTLS
             lblMarcadorPlayer.Text = marcador2.ToString();
         }
 
+        private void guardarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(guardar);
+        }
+
         //CARGA DE LAS IMAGENES DE LO SELECCIONADO  1º Jugador imagenJugador(), 2º Ordenador imagenOrdenador().
 
         private void imagenJugador(int eleccion1)
@@ -362,6 +361,7 @@ namespace xogoPPTLS
             Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
             this.Controls.Clear();            
             this.InitializeComponent();
+            aplicarIdiomas();
 
         }
 
@@ -371,16 +371,31 @@ namespace xogoPPTLS
             Thread.CurrentThread.CurrentUICulture = new CultureInfo("gl-ES");
             this.Controls.Clear();
             this.InitializeComponent();
+            aplicarIdiomas();
+            
 
         }
 
 
         private void miCastellano_Click(object sender, EventArgs e)
         {
-            Thread.CurrentThread.CurrentCulture = new CultureInfo("");
-            Thread.CurrentThread.CurrentUICulture = new CultureInfo("");
+            Thread.CurrentThread.CurrentCulture = new CultureInfo("es-ES");
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo("es-ES");
             this.Controls.Clear();
             this.InitializeComponent();
+            aplicarIdiomas();
+            
+
+        }
+        private void aplicarIdiomas()
+        {
+            perder = xogoPPTLS.Resources.StringResources.perder;
+            ganar = xogoPPTLS.Resources.StringResources.ganar;
+            empatar = xogoPPTLS.Resources.StringResources.empatar;
+            guardar = xogoPPTLS.Resources.StringResources.guardar;
+            cerrar = xogoPPTLS.Resources.StringResources.cerrar;
+            cerrarTitulo = xogoPPTLS.Resources.StringResources.cerrarTitulo;
+
 
         }
 

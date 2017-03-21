@@ -120,9 +120,12 @@
   <data name="mibtnEmpezar.Text" xml:space="preserve">
     <value>Start</value>
   </data>
+  <data name="mibtnEmpezar.ToolTipText" xml:space="preserve">
+    <value>Start</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="miCastellano.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="miCastellano.Text" xml:space="preserve">
     <value>Spanish</value>
@@ -131,7 +134,7 @@
     <value>Spanish</value>
   </data>
   <data name="miUsa.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="miUsa.Text" xml:space="preserve">
     <value>English (USA)</value>
@@ -140,7 +143,7 @@
     <value>English</value>
   </data>
   <data name="miGallego.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="miGallego.Text" xml:space="preserve">
     <value>Galician</value>
@@ -156,6 +159,9 @@
   </data>
   <data name="miInstrucciones.Text" xml:space="preserve">
     <value>How To</value>
+  </data>
+  <data name="miInstrucciones.ToolTipText" xml:space="preserve">
+    <value>How to</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="lblSeleccion.AutoSize" type="System.Boolean, mscorlib">
@@ -212,6 +218,12 @@
   <data name="btnPiedra.Text" xml:space="preserve">
     <value>Stone</value>
   </data>
+  <data name="guardarToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="cerrarToolStripMenuItem.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
   <data name="tsStart.Size" type="System.Drawing.Size, System.Drawing">
     <value>37, 20</value>
   </data>
@@ -221,19 +233,6 @@
   <data name="tsStart.ToolTipText" xml:space="preserve">
     <value>File</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="tsSave.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+S</value>
-  </data>
-  <data name="tsSave.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 20</value>
-  </data>
-  <data name="tsSave.Text" xml:space="preserve">
-    <value>&amp;Save</value>
-  </data>
-  <data name="tsSave.ToolTipText" xml:space="preserve">
-    <value>Save</value>
-  </data>
   <data name="tsMatch.Size" type="System.Drawing.Size, System.Drawing">
     <value>58, 20</value>
   </data>
@@ -242,9 +241,6 @@
   </data>
   <data name="tsMatch.ToolTipText" xml:space="preserve">
     <value>Matchs</value>
-  </data>
-  <data name="ayudaToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>None</value>
   </data>
   <data name="ayudaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 20</value>

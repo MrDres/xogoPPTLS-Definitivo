@@ -118,21 +118,21 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="cerrar" xml:space="preserve">
-    <value>¿ Are you sure you want to close the app ?</value>
+    <value>¿ Esta usted seguro que desea cerrar la aplicación ?</value>
   </data>
   <data name="cerrarTitulo" xml:space="preserve">
-    <value>CLOSE</value>
+    <value>CERRAR</value>
   </data>
   <data name="empatar" xml:space="preserve">
-    <value>DRAW</value>
+    <value>EMPATE</value>
   </data>
   <data name="ganar" xml:space="preserve">
-    <value>YOU WIN</value>
+    <value>HAS GANADO</value>
   </data>
   <data name="guardar" xml:space="preserve">
-    <value>SAVED</value>
+    <value>Partida guardada</value>
   </data>
   <data name="perder" xml:space="preserve">
-    <value>YOU LOSE</value>
+    <value>HAS PERDIDO</value>
   </data>
 </root>

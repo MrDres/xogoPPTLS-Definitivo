@@ -117,6 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="cerrar" xml:space="preserve">
+    <value>¿ Desea usted cerrar la aplicacion ?</value>
+  </data>
+  <data name="cerrarTitulo" xml:space="preserve">
+    <value>CERRAR</value>
+  </data>
   <data name="empatar" xml:space="preserve">
     <value>EMPATE</value>
   </data>
